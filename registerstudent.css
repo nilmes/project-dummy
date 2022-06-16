@@ -1,0 +1,37 @@
+
+
+
+
+#container{
+           
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    width: auto;
+    padding: 30px;  
+    margin: auto;
+}
+form,select,label{
+    width: 100%;
+    line-height: 30px;
+}
+#container>div{
+    border: 1px solid red;
+    margin: auto;
+    padding: 10px;
+    width: auto;
+}
+input[type="text"],input[type="number"],input[type="email"],input[type="password"],input[type="Submit"],select{
+    width: 100%;
+    padding: 5px;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    outline: none;
+
+}
+ h2{
+    margin-top: 3px;
+    
+ }
+ input[type="Submit"]{
+    margin-top: 5px;
+    border-radius: 5px;
+ }
